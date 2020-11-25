@@ -6,7 +6,7 @@ declare @nombre_sp varchar(100) = 'calculo_interes_CAR',--proc_repgir_formulario
         @detallado tinyint =1,
         @detallado_dep tinyint  =0,
         @log_ant tinyint  =0
-
+--Prueba de Edición
 								  -- Proc_repCCT_cambio_estado
 --  proc_abmcont_GenerarArchBalance
 select @nombre_opcion= ltrim(rtrim(descripcion)) +' ' + substring(uriweb,1,10) , @sistema =sistema  ,@nombre_sp1=nombre_sp
@@ -41,6 +41,7 @@ select * from pam_log
  --   and glosa like '%772%'
 order by nro_log
 end
+--Prueba de edición
 if @detallado =1 
 begin
 select * from pam_log2 
