@@ -1,5 +1,3 @@
---EXEC Rep_movimientos_cah_dpf_tj_CAP '06-10-2020',0,103,''
-
 alter procedure Rep_movimientos_cah_dpf_tj_CAP
               ( @I_fecha_proceso    smalldatetime,
                 @I_Usuario          int    = 0,
